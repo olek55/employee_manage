@@ -1,0 +1,430 @@
+[
+  {
+    "model": "optionsets_management.quickbook",
+    "pk": 1,
+    "fields": {
+      "QB_Access_Token": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..HKtnKj8nRZ4od6tAIOGMgw.yyBkB7MrXRzE7EwAN_l-d2dgkavcSG1zCE-7hqYMc_YZaJmk2kmQX55_rgq9zF49T_IuGSTtXvlg7LKpjiS-5GctZAka6LDuiniyZSmA8skbuksEN_JjNAkHGCFoSn2-9Pg0Avh9JYcP61SrRRC842QWS6TFLC3EYBYe40pHV4JrOlmVBTbx_9-lJrwN-RlYZKMky01QLQ8dWBdzK_5i-747WZ0Vjuc-mNwmGSR0_BruY_zdwhhcIEO2B22vUgmPXzCXff0suIs2K_U7oJ_GcshsAVTXdEbiv5Z8s4h0RXD79tmcw4o6GiBqmcAaHL-YjnUtAx-ESQmM3XAmNo-54vmiG2SZNBCU1hx391r2ov7MsducBYSDlDxiNDi6qJHS5rU6j43qHxhLQ7HPdJZqhVz9WJrxOVbvj5rg5ryPxG7Y8Kq1IyJi9JdKmFxlgO3rBwh_oF5YC-YMUKXMdU7xedCBxPXJBW8I4pa0OU0Bzi6UW2EiIcH-RP-CB-N-Kpc39Vi9w6YerELN7F_WSiToTDkMqYuFhkAFORO5EIi70-G3CqdQUQrp0wfOZGzJi6kTKBG8mcqGxN97nETml00j6DghVaF9IigOWZlK47AdXHmSAeaeKW_Nn0ApVx8w9_HRcgEGIL-HBydRojD9Tbf3kwAp3adH-RkOz6Hc1W9diYeiFXj2ngC_7TFaRN_QCAuGi5sJ9wKESF7lP-_6F3SOZgyFqE5hitzpn9vMyBkYRvtRQCSnZ5kE45-40CrtOB0hgEqsbDWRH3SWw67n_rBKsCM0cdv6Cg9PRjlCJlunHsy31UFXVkiFzt0lVie6UtK_bgtKgpmqmo6tLHYLWqUygFMY4IzaX18T-8uA6WnJK_HFwsLJ5N2EMosB3_6MwQqT.aRQ64aIhFgz9wdQEYQXl1w",
+      "QB_Refresh_Token": "AB11711884558OC6TmHCnU78nNZgPBj0sDMPVxef58r9XNk42J"
+    }
+  },
+  {
+    "model": "optionsets_management.acceptedcurrencies",
+    "pk": 1,
+    "fields": {
+      "payment_details": "Account holder: Rivermate B.V.\\nAddress: Avenue Louise 54, Room S52, Brussels, 1050, Belgium\\nIBAN: BE35 9671 9030 1737\\nBIC: TRWIBEB1XXX",
+      "symbol": "€",
+      "name": "EUR"
+    }
+  },
+  {
+    "model": "optionsets_management.acceptedcurrencies",
+    "pk": 2,
+    "fields": {
+      "payment_details": "Account holder: Rivermate B.V.\\nAddress: 56 Shoreditch High Street, London, E1 6JJ, United Kingdom\\nIBAN: GB92 TRWI 2314 7085 4077 24\\nAccount number: 85407724\\nSort code: 23-14-70",
+      "symbol": "£",
+      "name": "GBP"
+    }
+  },
+  {
+    "model": "optionsets_management.acceptedcurrencies",
+    "pk": 3,
+    "fields": {
+      "payment_details": "Account holder: Rivermate B.V.\\nAdress: 30 W. 26th Street, Sixth Floor, New York NY 10010, United States\\nRouting number: 026073150\\nAccount number: 8310990211\\nAccount type: Checking",
+      "symbol": "$",
+      "name": "USD"
+    }
+  },
+  {
+    "model": "optionsets_management.contractterm",
+    "pk": 1,
+    "fields": {
+      "name": "Definite contract"
+    }
+  },
+  {
+    "model": "optionsets_management.contractterm",
+    "pk": 2,
+    "fields": {
+      "name": "Indefinite contract"
+    }
+  },
+  {
+    "model": "optionsets_management.employmenteligibility",
+    "pk": 1,
+    "fields": {
+      "name": "Yes, they’re a permanent resident"
+    }
+  },
+  {
+    "model": "optionsets_management.employmenteligibility",
+    "pk": 2,
+    "fields": {
+      "name": "Yes, they have a work permit"
+    }
+  },
+  {
+    "model": "optionsets_management.employmenteligibility",
+    "pk": 3,
+    "fields": {
+      "name": "No, they don’t have a work permit and are not a permanent resident"
+    }
+  },
+  {
+    "model": "optionsets_management.eorprices",
+    "pk": 1,
+    "fields": {
+      "name": "50 EUR",
+      "price": 50
+    }
+  },
+  {
+    "model": "optionsets_management.eorprices",
+    "pk": 2,
+    "fields": {
+      "name": "100 EUR",
+      "price": 100
+    }
+  },
+  {
+    "model": "optionsets_management.eorprices",
+    "pk": 3,
+    "fields": {
+      "name": "150 EUR",
+      "price": 150
+    }
+  },
+  {
+    "model": "optionsets_management.eorprices",
+    "pk": 4,
+    "fields": {
+      "name": "200 EUR",
+      "price": 200
+    }
+  },
+  {
+    "model": "optionsets_management.eorprices",
+    "pk": 5,
+    "fields": {
+      "name": "250 EUR",
+      "price": 250
+    }
+  },
+  {
+    "model": "optionsets_management.eorprices",
+    "pk": 6,
+    "fields": {
+      "name": "300 EUR",
+      "price": 300
+    }
+  },
+  {
+    "model": "optionsets_management.eorprices",
+    "pk": 7,
+    "fields": {
+      "name": "350 EUR",
+      "price": 350
+    }
+  },
+  {
+    "model": "optionsets_management.eorprices",
+    "pk": 8,
+    "fields": {
+      "name": "400 EUR",
+      "price": 400
+    }
+  },
+  {
+    "model": "optionsets_management.eorprices",
+    "pk": 9,
+    "fields": {
+      "name": "450 EUR",
+      "price": 450
+    }
+  },
+  {
+    "model": "optionsets_management.eorprices",
+    "pk": 10,
+    "fields": {
+      "name": "500 EUR",
+      "price": 500
+    }
+  },
+  {
+    "model": "optionsets_management.eorprices",
+    "pk": 11,
+    "fields": {
+      "name": "550 EUR",
+      "price": 550
+    }
+  },
+  {
+    "model": "optionsets_management.eorprices",
+    "pk": 12,
+    "fields": {
+      "name": "600 EUR",
+      "price": 600
+    }
+  },
+  {
+    "model": "optionsets_management.healthinsurance",
+    "pk": 1,
+    "fields": {
+      "name": "Standard health insurance"
+    }
+  },
+  {
+    "model": "optionsets_management.healthinsurance",
+    "pk": 2,
+    "fields": {
+      "name": "Premium health insurance"
+    }
+  },
+  {
+    "model": "optionsets_management.healthinsurance",
+    "pk": 3,
+    "fields": {
+      "name": "No health insurance"
+    }
+  },
+  {
+    "model": "optionsets_management.invoicetype",
+    "pk": 1,
+    "fields": {
+      "name": "First invoice"
+    }
+  },
+  {
+    "model": "optionsets_management.invoicetype",
+    "pk": 2,
+    "fields": {
+      "name": "Payroll invoice"
+    }
+  },
+  {
+    "model": "optionsets_management.invoicetype",
+    "pk": 3,
+    "fields": {
+      "name": "Freelancer invoice"
+    }
+  },
+  {
+    "model": "optionsets_management.maritalstatus",
+    "pk": 1,
+    "fields": {
+      "name": "Single"
+    }
+  },
+  {
+    "model": "optionsets_management.maritalstatus",
+    "pk": 2,
+    "fields": {
+      "name": "Married"
+    }
+  },
+  {
+    "model": "optionsets_management.maritalstatus",
+    "pk": 3,
+    "fields": {
+      "name": "Widowed"
+    }
+  },
+  {
+    "model": "optionsets_management.maritalstatus",
+    "pk": 4,
+    "fields": {
+      "name": "Divorced"
+    }
+  },
+  {
+    "model": "optionsets_management.maritalstatus",
+    "pk": 5,
+    "fields": {
+      "name": "Seperated"
+    }
+  },
+  {
+    "model": "optionsets_management.maritalstatus",
+    "pk": 6,
+    "fields": {
+      "name": "Registered partnership"
+    }
+  },
+  {
+    "model": "optionsets_management.payrollprices",
+    "pk": 1,
+    "fields": {
+      "name": "5 EUR",
+      "price": 5
+    }
+  },
+  {
+    "model": "optionsets_management.payrollprices",
+    "pk": 2,
+    "fields": {
+      "name": "10 EUR",
+      "price": 10
+    }
+  },
+  {
+    "model": "optionsets_management.payrollprices",
+    "pk": 3,
+    "fields": {
+      "name": "15 EUR",
+      "price": 15
+    }
+  },
+  {
+    "model": "optionsets_management.payrollprices",
+    "pk": 4,
+    "fields": {
+      "name": "20 EUR",
+      "price": 20
+    }
+  },
+  {
+    "model": "optionsets_management.payrollprices",
+    "pk": 5,
+    "fields": {
+      "name": "25 EUR",
+      "price": 25
+    }
+  },
+  {
+    "model": "optionsets_management.payrollprices",
+    "pk": 6,
+    "fields": {
+      "name": "30 EUR",
+      "price": 30
+    }
+  },
+  {
+    "model": "optionsets_management.payrollprices",
+    "pk": 7,
+    "fields": {
+      "name": "35 EUR",
+      "price": 35
+    }
+  },
+  {
+    "model": "optionsets_management.payrollprices",
+    "pk": 8,
+    "fields": {
+      "name": "40 EUR",
+      "price": 40
+    }
+  },
+  {
+    "model": "optionsets_management.payrollprices",
+    "pk": 9,
+    "fields": {
+      "name": "45 EUR",
+      "price": 45
+    }
+  },
+  {
+    "model": "optionsets_management.payrollprices",
+    "pk": 10,
+    "fields": {
+      "name": "50 EUR",
+      "price": 50
+    }
+  },
+  {
+    "model": "optionsets_management.product",
+    "pk": 1,
+    "fields": {
+      "name": "Employer of Record"
+    }
+  },
+  {
+    "model": "optionsets_management.product",
+    "pk": 2,
+    "fields": {
+      "name": "Payroll"
+    }
+  },
+  {
+    "model": "optionsets_management.product",
+    "pk": 3,
+    "fields": {
+      "name": "Work permit"
+    }
+  },
+  {
+    "model": "optionsets_management.payrollstatus",
+    "pk": 1,
+    "fields": {
+      "name": "Onboarding"
+    }
+  },
+  {
+    "model": "optionsets_management.payrollstatus",
+    "pk": 2,
+    "fields": {
+      "name": "On payroll"
+    }
+  },
+  {
+    "model": "optionsets_management.payrollstatus",
+    "pk": 3,
+    "fields": {
+      "name": "Dismissed"
+    }
+  },
+  {
+    "model": "optionsets_management.expensestatus",
+    "pk": 1,
+    "fields": {
+      "name": "Pending"
+    }
+  },
+  {
+    "model": "optionsets_management.expensestatus",
+    "pk": 2,
+    "fields": {
+      "name": "Rejected"
+    }
+  },
+  {
+    "model": "optionsets_management.expensestatus",
+    "pk": 3,
+    "fields": {
+      "name": "Approved"
+    }
+  },
+  {
+    "model": "optionsets_management.leavetypes",
+    "pk": 1,
+    "fields": {
+      "name": "Personal leave"
+    }
+  },
+  {
+    "model": "optionsets_management.leavetypes",
+    "pk": 2,
+    "fields": {
+      "name": "Sick leave"
+    }
+  },
+  {
+    "model": "optionsets_management.usertypes",
+    "pk": 1,
+    "fields": {
+      "name": "Employer"
+    }
+  },
+  {
+    "model": "optionsets_management.usertypes",
+    "pk": 2,
+    "fields": {
+      "name": "Partner"
+    }
+  },
+  {
+    "model": "optionsets_management.usertypes",
+    "pk": 3,
+    "fields": {
+      "name": "Employee"
+    }
+  }
+]

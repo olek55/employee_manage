@@ -1,0 +1,94 @@
+from django.urls import path
+from .views import (
+    CountryListView,
+    CountryDetailView,
+    CountryOverviewView,
+    TaxObligationView,
+    EmployeeBenefitsAndEntitlementsView,
+    WorkersRightsandProtectionsView,
+    EmploymentAgreementsView,
+    RemoteWorkandFlexibleWorkArrangementsView,
+    StandardWorkingHoursandOvertimeView,
+    SalaryandCompensationView,
+    VacationandLeavePoliciesView,
+    TerminationView,
+    FreelancingandIndependentContractingView,
+    HealthandSafetyRequirementsView,
+    DisputeResolutionandLegalComplianceView,
+    CulturalConsiderationsView,
+    CurrencyListView,
+)
+
+urlpatterns = [
+    path("countries/", CountryListView.as_view(), name="country-list"),
+    path("currencies/", CurrencyListView.as_view(), name="currency-list"),
+    path("countries/<slug:slug>/", CountryDetailView.as_view(), name="country-detail"),
+    path(
+        "countries/<slug:slug>/taxes", TaxObligationView.as_view(), name="country-taxes"
+    ),
+    path(
+        "countries/<slug:slug>/benefits",
+        EmployeeBenefitsAndEntitlementsView.as_view(),
+        name="country-benefits",
+    ),
+    path(
+        "countries/<slug:slug>/rights",
+        WorkersRightsandProtectionsView.as_view(),
+        name="country-rights",
+    ),
+    path(
+        "countries/<slug:slug>/agreements",
+        EmploymentAgreementsView.as_view(),
+        name="country-agreements",
+    ),
+    path(
+        "countries/<slug:slug>/remote-work",
+        RemoteWorkandFlexibleWorkArrangementsView.as_view(),
+        name="country-remote-work",
+    ),
+    path(
+        "countries/<slug:slug>/working-hours",
+        StandardWorkingHoursandOvertimeView.as_view(),
+        name="country-working-hours",
+    ),
+    path(
+        "countries/<slug:slug>/salary",
+        SalaryandCompensationView.as_view(),
+        name="country-salary",
+    ),
+    path(
+        "countries/<slug:slug>/leave",
+        VacationandLeavePoliciesView.as_view(),
+        name="country-leave",
+    ),
+    path(
+        "countries/<slug:slug>/termination",
+        TerminationView.as_view(),
+        name="country-termination",
+    ),
+    path(
+        "countries/<slug:slug>/freelancing",
+        FreelancingandIndependentContractingView.as_view(),
+        name="country-freelancing",
+    ),
+    path(
+        "countries/<slug:slug>/health-and-safety",
+        HealthandSafetyRequirementsView.as_view(),
+        name="country-health-and-safety",
+    ),
+    path(
+        "countries/<slug:slug>/dispute-resolution",
+        DisputeResolutionandLegalComplianceView.as_view(),
+        name="country-dispute-resolution",
+    ),
+    path(
+        "countries/<slug:slug>/cultural-considerations",
+        CulturalConsiderationsView.as_view(),
+        name="country-cultural-considerations",
+    ),
+    path(
+        "countries/<slug:slug>/overview",
+        CountryOverviewView.as_view(),
+        name="country-overview",
+    ),
+]
