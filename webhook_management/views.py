@@ -41,7 +41,6 @@ def check_contract(request):
             contract.eor_contract_file = data["contract"]["contract_pdf_url"]
             contract.payroll_status = PayrollStatus.objects.get(name="Onboarding")
             contract.save()
-            print("Sending message to client!!!....")
             send_contract_sign_confirmation_message(
                 {
                     "employer_id": contract.employer.id,
@@ -61,7 +60,6 @@ def check_contract(request):
             partner = Partner.objects.get(psa_id=data["contract"]["id"])
             partner.psa_file = data["contract"]["contract_pdf_url"]
             partner.save()
-            print("Sending message to client....")
             send_contract_sign_confirmation_message(
                 {
                     "partner_id": partner.id,
